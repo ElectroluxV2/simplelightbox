@@ -1,4 +1,4 @@
-class SimpleLightbox {
+export class SimpleLightbox {
 
     defaultOptions = {
         sourceAttr: 'href',
@@ -1476,6 +1476,3 @@ class SimpleLightbox {
         return this;
     }
 }
-export default SimpleLightbox;
-
-global.SimpleLightbox = SimpleLightbox;
